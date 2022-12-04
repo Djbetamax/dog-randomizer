@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>API Dog</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main class="main-container">
+         <h1>
+            <span class="pawn">🐾</span>
+				Enjoy puppies photos
+				<span class="pawn">🐾</span>
+			</h1>
+			<p>You can search or let be randomized.</p>
+			<form class="dogs-form">
+				<input
+					type="text"
+					name="dogName"
+					id="dogName"
+					placeholder="Insert a breed name if you want"
+				/>
+				<div class="buttons-container">
+					<input type="button" class="btn-search" value="Search" />
+					<input type="button" class="btn-random" value="Random" />
+				</div>
+			</form>
+			<div class="dogs-images"></div>
+		</main>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

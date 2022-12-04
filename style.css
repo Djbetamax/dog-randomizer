@@ -1,0 +1,75 @@
+* {
+   padding: 0;
+   margin: 2px;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: grey;
+   height: 100vh;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgba(255, 255, 255, 1);
+}
+
+.main-container {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+h1:not(.pawns) {
+   color: rgba(110, 90, 139, 1);
+}
+
+img {
+   border: 0;
+   border-radius: 10px;
+   filter: drop-shadow(0 14px 20px rgba(0, 0, 0, 0.2));
+   width: 280px;
+}
+.dogs-form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 280px;
+}
+
+#dogName {
+   outline:0;
+   border: 0;
+   border-radius: 10px;
+   padding: 5px 10px;
+   margin: 15px 0 5px;
+   text-align: center;
+   color: rgba(110, 90, 139, 1);
+   font-size: 14px;
+}
+
+#dogName:focus {
+   outline: 1px solid rgb(0, 0, 0 , 0.25);
+}
+
+.buttons-container {
+   display: flex;
+   justify-content: space-around;
+}
+
+.btn-search, .btn-random {
+   border: 0;
+   border-radius: 10px;
+   padding: 4px 8px;
+   font-size: 14px;
+   width: 80px;
+   color: rgba(255, 255, 255, 1);
+   background-color: rgba(110, 90, 139, 1);
+}
+
+input[type=button]:hover {
+   background-color: rgba(110, 90, 139, 0.5);
+   box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+input[type=button]:active {
+   background-color: rgba(110, 90, 139, 0.7);
+}
