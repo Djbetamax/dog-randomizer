@@ -20,4 +20,4 @@ On that project I did an API interaction to randomize images of dogs ou search r
 
 ## Author
 
-Hugo - Djbetamax - 8dev
+[Djbetamax](https://github.com/Djbetamax)
